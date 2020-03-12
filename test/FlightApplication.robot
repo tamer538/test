@@ -39,7 +39,7 @@ Testcase1
  
 Testcases2
      [Tags]    mytag
-    Log    this is the second test case
+    Log    this is the second test case2
 Testcase3
     Log  this is the third testcase        
     

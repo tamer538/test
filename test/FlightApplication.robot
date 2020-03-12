@@ -35,7 +35,7 @@ Test Teardown    Close Browser
 
 Testcase1
    
-    Log    this is the first test case
+    Log    this is the first test case1
  
 Testcases2
      [Tags]    mytag

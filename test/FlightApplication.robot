@@ -2,6 +2,9 @@
 Resource    Keywords/CommonKeyword.robot
 Resource    Keywords/Objectonwebpage.robot
 Test Teardown    Close Browser
+
+*** Variables ***
+${browser}  chrome
 *** Test Cases ***
 # TC01-Login screen-objects on the page
     # Loginandnavigate
@@ -23,7 +26,7 @@ Test Teardown    Close Browser
 # user that doesn't enter password
     # Loginandnavigate
     # Set Selenium Speed    0.5  
-    # Change Frame
+    # Change Frametest
     # Enter email and remove password
     
 # user doesn't enter both username nor password
@@ -35,7 +38,7 @@ Test Teardown    Close Browser
 
 Testcase1
    
-    Log    this is the first test case1
+    Open Browser    http://www.google.com   chrome
  
 Testcases2
      [Tags]    mytag
